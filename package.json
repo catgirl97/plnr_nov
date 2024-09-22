@@ -1,0 +1,40 @@
+{
+  "name": "choo-vite-template",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite build --watch --emptyOutDir & vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "choo": "^7.1.0",
+    "@emotion/css": "^11.11.2",
+    "image-convert-ascii": "^1.1.2",
+    "p5": "^1.9.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "vite": "^4.3.8"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead"
+  ],
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/~choo-vite-template"
+  },
+  "glitch": {
+    "projectType": "generated_static"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "static"
+  ]
+}
